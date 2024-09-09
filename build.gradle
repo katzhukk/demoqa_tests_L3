@@ -9,6 +9,10 @@ repositories{
 dependencies {
     testImplementation(
             "com.codeborne:selenide:6.19.1", /*Maven Repository - имитация взаимодействия с браузером*/
-            "org.junit.jupiter:junit-jupiter:5.9.3" /*Эта строчка поможет превратить код в тестовый инструмент*/
+            "org.junit.jupiter:junit-jupiter:5.10.0" /*Эта строчка поможет превратить код в тестовый инструмент*/
     )
+}
+
+test{
+    useJUnitPlatform()  /*Тесты буду запущены с помощью JUnit*/
 }
