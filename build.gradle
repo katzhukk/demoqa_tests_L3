@@ -8,7 +8,7 @@ repositories{
 
 dependencies {
     testImplementation(
-            "com.codeborne:selenide:6.19.1", /*Maven Repository - имитация взаимодействия с браузером*/
+            "com.codeborne:selenide:7.4.3", /*Maven Repository - имитация взаимодействия с браузером*/
             "org.junit.jupiter:junit-jupiter:5.10.0" /*Эта строчка поможет превратить код в тестовый инструмент*/
     )
 }
