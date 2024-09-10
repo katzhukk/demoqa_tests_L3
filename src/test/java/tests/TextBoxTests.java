@@ -26,7 +26,7 @@ public class TextBoxTests {
     void fillFormTest() {
         open("https://demoqa.com/text-box");    /*Открывает форму text-box*/
 
-        $("#userName").setValue("Kate");    /*Вводит в форму Full Name. Можно сократить: для id= - #, для класса - .*/
+        $("#userName").setValue("Kate");    /*Вводит в форму Full Name. Можно сократить: для id= - #, для класса "точка" */
         $("#userEmail").setValue("kate@ivanova.ru");    /*Вводит в форму Email*/
         $("#currentAddress").setValue("Some street 1");    /*Вводит в форму currentAddress */
         $("#permanentAddress").setValue("Another street 1");    /*Вводит в форму permanentAddress */
