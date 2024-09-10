@@ -1,3 +1,5 @@
+package tests;
+
 import org.junit.jupiter.api.*;
 
 public class SimpleJUnitTest {  /*Место, где мы пишем наш Java тесты*/
